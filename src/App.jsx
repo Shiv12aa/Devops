@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <h1>Hello World</h1>
+      <p>New Message</p>
       <div className="box">
         <h1>Count:{count}</h1>
             <button onClick={()=>setCount(count?"Display":"Not Display")}>Click on it</button>
